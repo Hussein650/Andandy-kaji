@@ -1,0 +1,78 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "El Messiri", sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.el-messiri-<uniquifier> {
+  font-family: "El Messiri", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.game-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+}
+h1 {
+    color: #00ff00;
+}
+.nubian-word {
+  font-size: 20px;
+}
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+.option {
+    background-color: #333;
+    color: #00ff00;
+    padding: 10px;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.option.correct {
+    background-color: green;
+}
+.option.wrong {
+    background-color: orange;
+}
+.score {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.final-result {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: #0f0;
+}
+.final-result .reset-btn {
+  color: #0f0;
+  border: 2px solid #0f0;
+  background-color: #333;
+  color: #00ff00;
+  padding: 3px 5px;
+  border: 2px solid #00ff00;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+footer {
+  font-size: 20px;
+  padding: 20px 0;
+}
+footer span {
+  color: #0F0;
+}

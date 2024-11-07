@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أنداندي كجي</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <h1>انداندي كجي</h1>
+        <div class="question-container">
+            <p class="nubian-word"></p>
+            <div class="options">
+                <button class="option" onclick="checkAnswer(0)">خيار 1</button>
+                <button class="option" onclick="checkAnswer(1)">خيار 2</button>
+                <button class="option" onclick="checkAnswer(2)">خيار 3</button>
+                <button class="option" onclick="checkAnswer(3)">خيار 4</button>
+            </div>
+        </div>
+        <p class="score">النقاط: 0</p>
+    </div>
+  
+    <div class="final-result" style="display: none">
+      <span></span>
+      <button class="reset-btn">اللعب مجدداً</button>
+    </div>
+    
+    <footer>إنشاء
+      <span>حسين شريف</span>
+    </footer>
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
